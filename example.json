@@ -1,0 +1,12 @@
+{
+  "proposers": {
+    "alice": ["x", "y", "z"],
+    "bob": ["y", "x", "z"],
+    "carol": ["x", "y", "z"]
+  },
+  "receivers": {
+    "x": ["bob", "alice", "carol"],
+    "y": ["alice", "bob", "carol"],
+    "z": ["alice", "bob", "carol"]
+  }
+}
